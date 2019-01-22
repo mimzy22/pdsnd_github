@@ -54,7 +54,7 @@ def get_filters():
     print("\nGreat! I will show you Bikeshare data for {}.".format(day))
 
     print('-'*40)
-    return city, month, day
+    return city, month, day, user_name
 
 
 def load_data(city, month, day):
@@ -229,7 +229,7 @@ def raw_data(df):
 
 def main():
     while True:
-        city, month, day = get_filters()
+        city, month, day, user_name = get_filters()
         df = load_data(city, month, day)
 
         time_stats(df)
@@ -242,7 +242,7 @@ def main():
             user_stats_ny_ci(df)
         raw_data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input("\nWould you like to start again at the beginning "+ user_name +"? Please, enter yes or no.\n")
         if restart.lower() != 'yes':
             break
 
