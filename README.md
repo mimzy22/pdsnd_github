@@ -14,4 +14,5 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-This post on stackoverflow.com was helpful in remembering how to create text files via git bash: https://stackoverflow.com/questions/28978463/how-can-i-make-a-text-file-in-git-bash. 
+This post on stackoverflow.com was helpful in remembering how to create text files via git bash: https://stackoverflow.com/questions/28978463/how-can-i-make-a-text-file-in-git-bash.
+Git Bash's Mastering Markdown makes you a winner :1st_place_medal: at writing markdown: https://guides.github.com/features/mastering-markdown/.
