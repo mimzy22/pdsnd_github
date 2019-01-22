@@ -8,10 +8,13 @@ Bikeshare Project
 The Bikeshare project is a python program that interacts with users through git bash allowing them to explore various statistics for bikeshare locations in Washington, New York City, and Chicago.
 
 ### Files used
-bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+The following files were used in the creation of the **Bikeshare Project**:
+1. Project Files
+  1. bikeshare.py
+1. Data files
+  1. chicago.csv
+  1. new_york_city.csv
+  1. washington.csv
 
 ### Credits
 This post on stackoverflow.com was helpful in remembering how to create text files via git bash: https://stackoverflow.com/questions/28978463/how-can-i-make-a-text-file-in-git-bash.
