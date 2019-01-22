@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+Project and README.md file created 2019-01-14
 
 ### Project Title
-Replace the Project Title
+Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+The Bikeshare project is a python program that interacts with users through git bash allowing them to explore various statistics for bikeshare locations in Washington, New York City, and Chicago.
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+This post on stackoverflow.com was helpful in remembering how to create text files via git bash: https://stackoverflow.com/questions/28978463/how-can-i-make-a-text-file-in-git-bash. 
