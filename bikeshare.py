@@ -219,13 +219,11 @@ def raw_data(df):
     """Displays raw data 5 rows at a time as prompted by user"""
 
     print_raw_data = input('\nWould you like to see 5 rows of raw data? Enter yes or no.\n')
-    start_iloc = -5
-    end_iloc = 0
+    iloc = -5
 
     while print_raw_data.lower() in 'yes':
-        start_iloc += 5
-        end_iloc += 5
-        print(df.iloc[start_iloc:end_iloc])
+        iloc += 5
+        print(df.iloc[iloc:iloc + 5])
         print_raw_data = input('\nWould you like to see the next 5 rows of raw data? Enter yes or no.\n')
 
 
