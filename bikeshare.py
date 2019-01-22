@@ -165,7 +165,9 @@ def trip_duration_stats(df):
 def user_stats_wa(df):
     """
         Displays statistics on bikeshare users. Only used for the Washington
-        data set because that data set does not have gender or birth date data.
+        data set because that data set doesn't have gender or birth date data.
+        This function skips birth date and gender data so that the program doesn't
+        error out because the data is missing.
     """
 
     print('\nCalculating User Stats...\n')
@@ -188,6 +190,7 @@ def user_stats_ny_ci(df):
     """
         Displays statistics on bikeshare users. Only used for Chicago and New York City
         data sets because the Washington data set is missing gender and birth date data.
+        This function provides data about the gender and birth date of users.
     """
 
     print('\nCalculating User Stats...\n')
@@ -237,7 +240,11 @@ def main():
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
-        #user_stats is separated into two functions because the washington data set is missing gender and birth date data.
+        """User_stats is separated into two functions because the washington
+        data set is missing gender and birth date data. Separating into two functions
+        allows us to show gender and birth data data for Chicago and New York City without
+        getting an error if the user choses to see Washington data.
+        """
         if city in 'Washington':
             user_stats_wa(df)
         else:
